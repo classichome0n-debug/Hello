@@ -1,3 +1,15 @@
-# Hello
-My fist GitHub 
-repoCLASSIC_HOME_FULLSTACK.zip
+classic-home/
+│
+├── frontend/
+│   ├── app/              # Next.js pages (SEO ready)
+│   ├── components/       # UI + AI Chatbot + Admin UI
+│   └── public/
+│
+├── backend/
+│   ├── models/           # User, Product, Order, Invoice, Quotation, CustomOrder
+│   ├── routes/           # Auth, Products, Orders, AI, Invoice, Admin
+│   ├── middleware/       # JWT + Role-based auth
+│   ├── invoices/         # Auto-generated PDFs
+│   └── .env.example
+│
+└── README.md
